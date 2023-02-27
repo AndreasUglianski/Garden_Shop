@@ -1,0 +1,17 @@
+.promotion_section>div {
+	display: flex;
+	align-items: center;
+	gap: 63px;
+    
+}
+.promo_subheader h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px;
+}
+.promo_card {
+    display: grid;
+	grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    margin-top: 21px;
+}

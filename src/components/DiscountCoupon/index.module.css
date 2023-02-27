@@ -1,0 +1,44 @@
+.container {
+	background-color: #339933;
+	display:flex;
+	height: 476px;
+	margin-top: 100px;
+}
+.image {
+	display: flex;
+	margin-left: 100px;
+}
+.info_block {
+	display: flex;
+	flex-direction: column;
+}
+.info_block>h2 {
+	color: #FFFFFF;
+	font-size: 90px;
+	font-weight: 700;
+	margin-left: 100px;
+	margin-top: 40px;
+
+}
+.info_block>p {
+	color: #FFFFFF;
+	font-size: 50px;
+	font-weight: 700;
+	margin-left: 100px;
+}
+
+.input_number{
+	width: 475px;
+	margin-left: 100px;
+	
+}
+.input_number img{
+	width: 25px;
+}
+
+
+.error_message {
+	color: red;
+    font-size: 20px;
+}
+    

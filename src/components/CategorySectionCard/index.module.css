@@ -1,0 +1,19 @@
+.cat_picture {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.cat_picture img {
+	width: 320px;
+	height: 350px;
+	object-fit: cover;
+}
+.cat_picture p {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 15px;
+    color: #3A3A3A;
+}

@@ -14,7 +14,7 @@ export default function ProductsPage() {
 	const products = useSelector((state) => state.allProducts);
 	const products_category = useSelector((state) => state.categories);
 
-	console.log(products)
+	// console.log(products)
 	
 	useEffect(() => {
 		dispatch(all_Products(id));

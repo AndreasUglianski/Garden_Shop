@@ -42,11 +42,15 @@
 	font-weight: 600;
 	color: red;
 }
+.info_block {
+	padding-left: 50px;
+}
 
 .info_block button {
 	background: #339933;
 	border: 2px solid #339933;
 	border-radius: 10px;
+	margin-left: 90px;
 	color: white;
 	width: 341px;
 	height: 86px;

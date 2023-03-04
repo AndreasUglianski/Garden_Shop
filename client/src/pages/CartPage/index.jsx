@@ -4,7 +4,7 @@ import CartCard from '../../components/CartCard';
 import FormCartTelNum from '../../components/FormCartTelNum';
 import { clearCart } from '../../store/reducers/cart';
 import s from './index.module.css';
-import CartImg from './media/Cart.jpeg'
+import CartImg from './media/CartImg.png';
 
 export default function CartPage() {
 	const cart = useSelector((state) => state.cart);

@@ -11,6 +11,10 @@
 	color: #bd444e;
 	margin: 30px 0 35px 0;
 }
+
+.empty_card img {
+	width: 350px;
+}
 .cart_container {
 	display: grid;
 	grid-template-columns: repeat(2, auto);

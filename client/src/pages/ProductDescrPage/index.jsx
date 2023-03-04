@@ -29,7 +29,9 @@ export default function ProductDescrPage() {
 			<div>
 				<h2 className={s.title}>{title}</h2>
 				<div className={s.img_wrapper}>
-					{image && <img src={`http://127.0.0.1.:3333${image}`} alt={title} />}
+					{image && (
+						<img src={`https://garden-0xcl.onrender.com${image}`} alt={title} />
+					)}
 				</div>
 			</div>
 

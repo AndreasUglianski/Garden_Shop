@@ -19,7 +19,7 @@ export default function ProductsCard({
 		<div className={s.products_card}>
 			<div className={s.cards_btn}>
 				<Link to={product_url}>
-					<img src={`http://127.0.0.1.:3333${image}`} alt={title} />
+					<img src={`https://garden-0xcl.onrender.com${image}`} alt={title} />
 				</Link>
 
 				<button onClick={add_to_cart}>Add to cart</button>

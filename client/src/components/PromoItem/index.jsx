@@ -8,7 +8,7 @@ export default function PromoItem({ image, title, price, discont_price,id }) {
 	return (
 		<div className={s.promo_item}>
 			<Link to={product_url}>
-				<img src={`http://127.0.0.1.:3333${image}`} alt={title} />
+				<img src={`https://garden-0xcl.onrender.com${image}`} alt={title} />
 			</Link>
 
 			<div className={s.prices}>

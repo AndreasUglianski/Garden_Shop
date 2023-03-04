@@ -23,7 +23,7 @@ export default function CartCard({ id, title, image, price, discont_price, count
 		<div className={s.card}>
 			<IoIosClose className={s.cross_icon} onClick={() => delete_product(id)} />
 			<div className={s.card_images}>
-				<img src={`http://127.0.0.1.:3333${image}`} alt={title} />
+				<img src={`https://garden-0xcl.onrender.com${image}`} alt={title} />
 			</div>
 
 			<div className={s.descr}>
